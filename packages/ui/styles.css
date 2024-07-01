@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    h1 {
+        @apply text-3xl font-bold underline;
+    }
+
+    div .page {
+        @apply bg-red-300
+    }
+
+    .page {
+        @apply min-h-screen flex flex-col justify-center items-center text-center color-gray-900;
+    }
+}
